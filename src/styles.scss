@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+$background-Color: #252525 !important;
+$font-Color: #fff !important;
+
+body {
+  background-image: url("./assets/2122637.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.p-card {
+  background-color: rgba(181, 181, 181, 0.9);
+}
