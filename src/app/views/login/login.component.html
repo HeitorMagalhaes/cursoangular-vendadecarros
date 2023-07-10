@@ -7,16 +7,16 @@
         </div>
         <div class="col-12">
           <label for="Usuario">Usuário:</label>
-          <input class="col-12" type="text" pInputText />
+          <input [(ngModel)]="requestLogin.login" class="col-12" type="text" pInputText />
         </div>
         <div class="col-12">
           <label for="Senha">Senha:</label>
-          <input class="col-12" type="text" pInputText />
+          <input [(ngModel)]="requestLogin.password" class="col-12" type="password" pInputText />
         </div>
         <div class="col-12">
-          <button class="col-12" pButton type="button" label="Entrar"></button>
+          <button (click)="doLogin()" class="col-12" pButton type="button" label="Entrar"></button>
         </div>
-      </div>
+      </div> 
     </p-card>
   </div>
 </div>
